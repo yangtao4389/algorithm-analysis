@@ -31,6 +31,12 @@
  System.out.println(a.getClass().getSimpleName());
 
 
+### 树 tree
+* 二叉树 BinNode
+* 二叉树存储结构
+![avatar](resource/二叉树存储结构.png)
+* 哈夫曼树
+
 
  
  
