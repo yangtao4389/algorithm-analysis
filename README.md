@@ -9,6 +9,16 @@
 * 用迭代器打印线性表 很方便 参考 diedaiqi
 
 
+* ArrayList 与List:  
+ArrayList（顺序存储） 类提供了List ADT 的一种可增长数组的实现。
+使用ArrayList的优点在于，对get和set的调用花费常数时间。其缺点是新项的插入和现有项的删除代价昂贵。
+除非变动是在ArrayList末端进行。  
+LinkedList（链式存储） 类则提供了List ADT 的双链表实现。
+使用LinkedList的优点在于，新项的插入和现有项的删除开销很小。
+由此，LinkedList提供了方法addFirst和removeFirst、addLast和removerLast、以及getFirst和getLast等以有效地添加、删除、访问表两端的项。
+使用LinkedList的缺点是它不容易作索引，因此对get的调用是昂贵的，除非调用在接近表的端点。
+
+
 ### 堆栈 stack
 * 先进后出
 * 顺序栈
