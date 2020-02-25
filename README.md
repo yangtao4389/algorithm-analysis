@@ -45,10 +45,11 @@ LinkedList（链式存储） 类则提供了List ADT 的双链表实现。
 
 
 ### 树 tree
-* 二叉树 BinNode
+* 二叉树搜索 BinNodeSearchTree
 * 二叉树存储结构
 ![avatar](resource/二叉树存储结构.png)
 * 哈夫曼树
+* AvlNodeTree  平衡二叉树  左旋，右旋，双旋实现平衡。
 
 ### 图
 * 有向图  
