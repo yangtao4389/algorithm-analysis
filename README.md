@@ -56,6 +56,18 @@ LinkedList（链式存储） 类则提供了List ADT 的双链表实现。
     CoumputeWords 用于计算 两个单词只有一个字符不同的 map
 * hashMap
 
+### 散列 hase
+标准库中包括Set和Map的散列表的实现，即HashSet类 和 HashMap类  
+HashSet中的项必须提供equals方法 和 hashCode方法  
+HashSet 和 HashMap 通常是用分离链接散列实现的。  
+  
+这篇文章不错，推荐：https://blog.csdn.net/brycegao321/article/details/52527236  
+详细分析了hashMap，首先默认hashMap的长度为16，当出现hashCode碰撞的时候，利用链表来解决这个问题。当出现更多的时候，即搜索到该值为0（N）
+比较糟糕的情况，通过红黑树来解决。
+如果容量不足，控制在0.75，则重新分配资源。
+另外注意hashTable，跟hashMap一样，但有细微差别
+
+
 
 
 

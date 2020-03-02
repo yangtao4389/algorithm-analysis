@@ -140,7 +140,7 @@ public class CoumputeWords {
     *
     * 2. 对于该长度一致的 从0，到该长度 将单词切片
     *    比方：ab,ac  切0  剩下的 为 b,c  存入[b:[ab],  c:[ac] ]
-    *                 切1  剩下的 为 a   存入 {a:[ab,ac] }  这个>=2  取出  相互遍历
+    *                 切1  剩下的 为 a   存入 {a:[ab,ac]}
     *
     *
     *
