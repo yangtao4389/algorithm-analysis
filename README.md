@@ -22,7 +22,7 @@ LinkedList（链式存储） 类则提供了List ADT 的双链表实现。
 * MyLinkedList  实现自定义 链表
 
 
-### 堆栈 stack
+### 堆栈 stack  
 * 先进后出
 * 顺序栈
 * 链式堆栈
@@ -67,6 +67,9 @@ HashSet 和 HashMap 通常是用分离链接散列实现的。
 如果容量不足，控制在0.75，则重新分配资源。
 另外注意hashTable，跟hashMap一样，但有细微差别
 
+
+### 优先队列 heap
+标准库中有java.util.PriorityQueue 具体实现逻辑是不是也是用的二叉树转为数组存储的方式，不太清楚。
 
 
 
