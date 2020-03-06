@@ -1,6 +1,11 @@
 ## 数据结构与算法分析
 
 ### 数据结构 datastructure
+### Integer 与int的不同
+  // 关于int与Integer的问题的处理
+     https://blog.csdn.net/tongsiw/article/details/89851213?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
+        
+
 #### 线性表 linklist
 * 线性表的存储有两种：顺序存储表，链式存储表。
 * 顺序存储结构：要求数据存放的物理和逻辑地址连续
@@ -83,5 +88,13 @@ HashSet 和 HashMap 通常是用分离链接散列实现的。
  ### 排序
  * 排序方法性能比较表
  ![avatar](resource/排序方法性能比较表.png)
+* 定理一：N个互异数的数组的平均逆序数是N(N-1)/4
+* 定理二：通过交换相邻元素进行排序的任何算法平均都需要O（N^2）
+* 上述两个定理就决定了 类似 插入、选择、冒泡排序，由于是直接交换两个 互异数， 其算法的时间复杂度必为 O（N^2）
+* 堆排序：https://zh.wikipedia.org/wiki/%E5%A0%86%E6%8E%92%E5%BA%8F#Java
+* 归并排序：https://zh.wikipedia.org/zh-hans/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F#Java
+* 快速排序：https://zh.wikipedia.org/wiki/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F
+
+
  
 

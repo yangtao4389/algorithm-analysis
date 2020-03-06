@@ -41,6 +41,10 @@ public class BinaryHeap <AnyType extends Comparable<? super AnyType>> {
         priorityQueue.add(integerComparables);
         System.out.println(priorityQueue.remove());
 
+
+        Integer[] integers = new Integer[]{};
+
+
     }
 
     public void test(AnyType[] items){
