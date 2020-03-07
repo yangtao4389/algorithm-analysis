@@ -73,7 +73,7 @@ HashSet 和 HashMap 通常是用分离链接散列实现的。
 另外注意hashTable，跟hashMap一样，但有细微差别
 
 
-### 优先队列 heap
+### 优先队列 heap 堆
 标准库中有java.util.PriorityQueue 具体实现逻辑是不是也是用的二叉树转为数组存储的方式，不太清楚。
 
 
