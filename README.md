@@ -56,7 +56,7 @@ LinkedList（链式存储） 类则提供了List ADT 的双链表实现。
 * 哈夫曼树
 * AvlNodeTree  平衡二叉树  左旋，右旋，双旋实现平衡。
 
-### map
+### map  映射
 * treeMap  
     CoumputeWords 用于计算 两个单词只有一个字符不同的 map
 * hashMap
@@ -64,7 +64,7 @@ LinkedList（链式存储） 类则提供了List ADT 的双链表实现。
 ### 散列 hase
 标准库中包括Set和Map的散列表的实现，即HashSet类 和 HashMap类  
 HashSet中的项必须提供equals方法 和 hashCode方法  
-HashSet 和 HashMap 通常是用分离链接散列实现的。  
+HashSet 和 HashMap 通常是用分离链接散列实现的。  数组+链表 来解决这个问题
   
 这篇文章不错，推荐：https://blog.csdn.net/brycegao321/article/details/52527236  
 详细分析了hashMap，首先默认hashMap的长度为16，当出现hashCode碰撞的时候，利用链表来解决这个问题。当出现更多的时候，即搜索到该值为0（N）
@@ -79,11 +79,18 @@ HashSet 和 HashMap 通常是用分离链接散列实现的。
 
 
 
-### 图
+### 图 graph
 * 有向图  
 从一个顶点指向另一个顶点，每条边都是顶点的有序偶对。
 * 无向图  
 如果边没有方向性，即每条边都是顶点的无序偶对，则为无向图。
+
+* Dijkstra 算法  贪婪算法的代表 https://zh.wikipedia.org/zh-hans/%E6%88%B4%E5%85%8B%E6%96%AF%E7%89%B9%E6%8B%89%E7%AE%97%E6%B3%95
+* kruskal算法  https://zh.wikipedia.org/wiki/%E5%85%8B%E9%B2%81%E6%96%AF%E5%85%8B%E5%B0%94%E6%BC%94%E7%AE%97%E6%B3%95
+* 欧拉回路
+* 深度优先与 广度优先
+* NP完全性
+
 
  ### 排序
  * 排序方法性能比较表
