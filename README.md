@@ -85,8 +85,7 @@ HashSet 和 HashMap 通常是用分离链接散列实现的。  数组+链表 �
 * 无向图  
 如果边没有方向性，即每条边都是顶点的无序偶对，则为无向图。
 
-* Dijkstra 算法  贪婪算法的代表 https://zh.wikipedia.org/zh-hans/%E6%88%B4%E5%85%8B%E6%96%AF%E7%89%B9%E6%8B%89%E7%AE%97%E6%B3%95
-* kruskal算法  https://zh.wikipedia.org/wiki/%E5%85%8B%E9%B2%81%E6%96%AF%E5%85%8B%E5%B0%94%E6%BC%94%E7%AE%97%E6%B3%95
+
 * 欧拉回路
 * 深度优先与 广度优先
 * NP完全性
@@ -104,5 +103,21 @@ HashSet 和 HashMap 通常是用分离链接散列实现的。  数组+链表 �
 
 ### union/find
 
- 
+## 常用算法设计技巧
+### 贪婪算法 greedy algorithm
+* prim算法
+* Dijkstra 算法  贪婪算法的代表 https://zh.wikipedia.org/zh-hans/%E6%88%B4%E5%85%8B%E6%96%AF%E7%89%B9%E6%8B%89%E7%AE%97%E6%B3%95
+* kruskal算法  https://zh.wikipedia.org/wiki/%E5%85%8B%E9%B2%81%E6%96%AF%E5%85%8B%E5%B0%94%E6%BC%94%E7%AE%97%E6%B3%95
+* 哈夫曼算法
+* 贪心算法与动态规划的不同在于它对每个子问题的解决方案都做出选择，不能回退。动态规划则会保存以前的运算结果，并根据以前的结果对当前进行选择，有回退功能。
+
+### 分治算法
+
+### 动态规划
+
+### 随机化算法
+
+### 回溯算法
+
+
 
