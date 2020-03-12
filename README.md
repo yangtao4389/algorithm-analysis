@@ -123,11 +123,19 @@ HashSet 和 HashMap 通常是用分离链接散列实现的。  数组+链表 �
 *
 
 
-### 动态规划
+### 动态规划  dynamic programming
 
-### 随机化算法
+### 随机化算法 randomized algorithm
+* 伪随机数  pseudorandom
+
 
 ### 回溯算法
 
+
+
+待办：
+QuickUnionUF.java
+
+ QuickFindUF.java
 
 
