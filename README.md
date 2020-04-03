@@ -1,6 +1,6 @@
-## 数据结构与算法分析
+# 数据结构与算法分析
 
-### 数据结构 datastructure
+## 数据结构 datastructure
 ### Integer 与int的不同
   // 关于int与Integer的问题的处理
      https://blog.csdn.net/tongsiw/article/details/89851213?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
@@ -103,7 +103,7 @@ HashSet 和 HashMap 通常是用分离链接散列实现的。  数组+链表 �
 
 ### union/find
 
-## 常用算法设计技巧
+## 算法algorithm
 ### 贪婪算法 greedy algorithm
 * prim算法
 * Dijkstra 算法  贪婪算法的代表 https://zh.wikipedia.org/zh-hans/%E6%88%B4%E5%85%8B%E6%96%AF%E7%89%B9%E6%8B%89%E7%AE%97%E6%B3%95
@@ -131,6 +131,23 @@ HashSet 和 HashMap 通常是用分离链接散列实现的。  数组+链表 �
 
 ### 回溯算法
 
+
+
+
+## java基础  javademo
+
+### basic
+Hello.java：静态代码块，继承，重写 
+ArraysTest  Arrays常用
+
+
+### thread 线程
+线程锁：DeadLockDemo
+线程安全单例模式：PropertyHolderLazy
+
+
+### io
+io处理
 
 
 待办：
