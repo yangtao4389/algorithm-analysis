@@ -148,7 +148,7 @@ ArraysTest  Arrays常用
 
 ### io
 io处理
-
+*bio  阻塞同步io
 
 待办：
 QuickUnionUF.java
