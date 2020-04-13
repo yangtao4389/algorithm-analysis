@@ -124,6 +124,8 @@ HashSet 和 HashMap 通常是用分离链接散列实现的。  数组+链表 �
 
 
 ### 动态规划  dynamic programming
+pack 背包问题
+
 
 ### 随机化算法 randomized algorithm
 * 伪随机数  pseudorandom
