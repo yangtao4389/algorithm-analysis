@@ -11,8 +11,8 @@ public class KeyboardInput {
 //        scannerTest();
 //        scannerTest2();
 //        scannerTest3();
-        scannerTest4();
-//        streamReader();
+//        scannerTest4();
+        streamReader();
 //        streamTest();
     }
 
@@ -82,7 +82,10 @@ public class KeyboardInput {
         System.out.println("请输入：");
         InputStreamReader inputStreamReader = new InputStreamReader(System.in);
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-
+        while(bufferedReader.read() != -1){  //实现持续读入
+            int read = bufferedReader.read();
+            System.out.println(read);
+        }
         String s = bufferedReader.readLine();
         System.out.println(s);
     }
