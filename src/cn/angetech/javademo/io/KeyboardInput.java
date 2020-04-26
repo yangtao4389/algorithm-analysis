@@ -12,8 +12,9 @@ public class KeyboardInput {
 //        scannerTest2();
 //        scannerTest3();
 //        scannerTest4();
-        streamReader();
+//        streamReader();
 //        streamTest();
+        IOReceive();
     }
 
     public static void scannerTest(){
@@ -84,7 +85,7 @@ public class KeyboardInput {
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
         while(bufferedReader.read() != -1){  //实现持续读入
             int read = bufferedReader.read();
-            System.out.println(read);
+            System.out.println((char) read);
         }
         String s = bufferedReader.readLine();
         System.out.println(s);
@@ -101,6 +102,16 @@ public class KeyboardInput {
 //        }
         System.out.println(new String(bytes));
 
+    }
+
+    public static void IOReceive() throws IOException {
+        int receive = 0;
+        while ((receive = System.in.read())!= -1){
+            System.out.print((char)receive);
+            System.out.print("---");
+            System.out.print(receive);
+            System.out.println();
+        }
     }
 
 }
