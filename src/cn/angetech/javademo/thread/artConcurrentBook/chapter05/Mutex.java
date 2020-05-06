@@ -4,7 +4,12 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
-
+/*
+* 独占锁
+* 独占锁就是在同一时刻只能有一个线程获取到锁，而其他获取锁的线程只能
+处于同步队列中等待，只有获取锁的线程释放了锁，后继的线程才能够获取锁，
+*
+* */
 public class Mutex implements Lock{
     // 静态内部类，自定义同步器
     private static class Sync extends AbstractQueuedSynchronizer{
