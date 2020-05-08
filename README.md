@@ -152,7 +152,7 @@ ArraysTest  Arrays常用
 线程锁：DeadLockDemo
 线程安全单例模式：PropertyHolderLazy
 
-artConcurrentBook:来源并发编程的艺术
+artConcurrentBook:来源《Java并发编程的艺术》
 关于其书的源代码放在：docs/ArtConcurrentBook
 
 
