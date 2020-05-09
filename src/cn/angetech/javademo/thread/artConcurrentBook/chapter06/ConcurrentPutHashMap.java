@@ -16,6 +16,7 @@ public class ConcurrentPutHashMap {
                         @Override
                         public void run() {
                             map.put(UUID.randomUUID().toString(), "");
+//                            stringStringConcurrentHashMap.put(UUID.randomUUID().toString(), "");
                         }
                     }, "ftf" + i).start();
                 }
@@ -23,7 +24,11 @@ public class ConcurrentPutHashMap {
         }, "ftf");
         t.start();
         t.join();
-        Thread.sleep(10000);
+        // Thread.sleep(10000);
+        while (true){
+            System.out.println(map); // todo 在读取的时候就会报错  HashIterator.nextNode  java.util.ConcurrentModificationException
+//            System.out.println(stringStringConcurrentHashMap);
+        }
 
     }
 }
