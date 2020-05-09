@@ -74,11 +74,12 @@ Lock by [2],Waiting by []
         @Override
         protected Collection<Thread> getQueuedThreads() {
             ArrayList<Thread> arrayList = new ArrayList<>(super.getQueuedThreads());
-            Collections.reverse(arrayList);
+            Collections.reverse(arrayList);  // todo 重写该方法，返回 等待获取锁的 线程列表
             return arrayList;
         }
     }
 
+    // todo 启动线程 打印当前加锁的线程，以及等待的线程队列
     private static class Job extends Thread {
         private Lock lock;
 
@@ -96,8 +97,8 @@ Lock by [2],Waiting by []
                 lock.lock();
                 try {
                     System.out.println("Lock by [" + getName() + "],Waiting by " + ((ReentrantLock2) lock).getQueuedThreads());
-                    Thread.sleep(3);
-                }catch (InterruptedException e){}
+                    //Thread.sleep(3);
+                }
                 finally {
                     lock.unlock();
                 }
