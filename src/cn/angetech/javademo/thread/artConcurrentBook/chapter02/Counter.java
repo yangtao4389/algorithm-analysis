@@ -24,8 +24,8 @@ public class Counter {
                 @Override
                 public void run() {
                     for (int k = 0; k < 1000; k++) {
-                        //cas.count();
-                        cas.safeCount();
+                        cas.count();
+//                        cas.safeCount();
                     }
                 }
             });
